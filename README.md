@@ -13,28 +13,28 @@ specific for Arch, so check out which packages should you use on your own distro
 
 Install MingGW for GCC:
 ```
-# pacman -S mingw-w64-gcc
+sudo pacman -S mingw-w64-gcc
 ```
 
 Install git if you don't have it on your system:
 ```
-# pacman -S git
+sudo pacman -S git
 ```
 
 Clone this repo using git:
 ```
-$ git clone https://github.com/MrWexor/sonic-4-launcher-linux
+sudo git clone https://github.com/MrWexor/sonic-4-launcher-linux
 ```
 
 Go to the repo directory created by git in the terminal and checkout the submodules:
 ```
-$ cd sonic-4-launcher-linux
-$ git submodule init && git submodule update
+cd sonic-4-launcher-linux
+git submodule init && git submodule update
 ```
 
 Use make to start compiling:
 ```
-$ make
+make
 ```
 
 After compiling, the Windows executable should be in the 'out' directory.
