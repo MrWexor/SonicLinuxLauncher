@@ -12,9 +12,7 @@ This was tested on Arch Linux, but should work fine on any distro. The instructi
 specific for Arch, so check out which packages should you use on your own distro.
 
 ### Install MingGW for GCC:
-'''
-# pacman -S mingw-w64-gcc
-'''
+'''# pacman -S mingw-w64-gcc'''
 
 ### Install git if you don't have it on your system:
 **# pacman -S git**
