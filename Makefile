@@ -16,8 +16,7 @@ CFLAGS = -O3 -Wall -I./$(OUT) -I./fltk -I./fltk/src -I./fltk/libpng -I./fltk/zli
 CXXFLAGS = $(CFLAGS)
 LDFLAGS = -Wl,--gc-sections -mwindows -lcomctl32 -ldinput8 -ldxguid -lole32 -lshell32 -static
 
-MINGW_PREFIX = i686-w64-mingw32-
-MINGW_THREADS = -win32
+MINGW_PREFIX = x86_64-mingw-w64
 
 CC = $(MINGW_PREFIX)gcc$(MINGW_THREADS)
 CXX = $(MINGW_PREFIX)g++$(MINGW_THREADS)
