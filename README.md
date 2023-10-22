@@ -3,7 +3,7 @@ launcher made by darealshinji, here made to be specifically compiled
 on Linux avoidving the use of Visual Studio.
 
 The original launcher by Sonic Team was written in Java, but the game itself uses no Java.
-This is made to avoid a pointless Java runtime dependency and to make it easier
+This rewrite is made to avoid a pointless Java runtime dependency and to make it easier
 to run Sonic 4 on Linux using Wine or Proton.
 
 How to build
