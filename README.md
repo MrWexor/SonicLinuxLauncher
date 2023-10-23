@@ -1,6 +1,7 @@
 This is a slightly modified version of the rewritten Sonic 4: Episode I
 launcher made by darealshinji, here made to be specifically compiled
-on Linux avoidving the use of Visual Studio.
+on Linux, avoidving the use of Visual Studio and using the Linux version
+of MingGW.
 
 The original launcher by Sonic Team was written in Java, but the game itself uses no Java.
 This rewrite is made to avoid a pointless Java runtime dependency and to make it easier
